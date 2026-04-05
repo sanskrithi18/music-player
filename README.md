@@ -1,27 +1,24 @@
 # 🎵 Music Player App
 
-## Features
+A fully functional React Native music player built with Expo.
 
-* Search songs
-* Play / Pause / Next
-* Seek bar
-* Mini player
-* Queue (add/remove)
-* Background playback
+## 🚀 Features
 
-## Tech
+- 🔍 Search songs using API
+- ▶️ Play / Pause audio
+- ⏭️ Queue management (add/remove songs)
+- 🔀 Shuffle mode
+- ❤️ Like songs (Saved locally)
+- 📜 Liked Songs screen
+- 🎧 Mini Player (persistent across screens)
+- 🔄 Full Player sync with Mini Player
+- 📱 Clean and modern UI
 
-* React Native (Expo)
-* Zustand
-* Expo AV
-* AsyncStorage
+## 🧠 Architecture
 
-## Run
+- State Management: Zustand
+- Navigation: React Navigation (Stack)
+- Audio: Expo AV
+- API: iTunes Search API (fallback included)
 
-npm install
-npx expo start
-
-## Notes
-
-* API fallback used for reliability
-* Queue persisted locally
+## 📂 Project Structure
